@@ -43,3 +43,14 @@ class Employee {
       // write prescription logic
     }
   }
+  const pharmacist = new Pharmacist("cess", 35);
+pharmacist.writePrescription("Jane ");
+
+const cashier = new Cashier("jillian", 25);
+cashier.collectCash(50);
+cashier.returnCash(10);
+
+const manager = new Manager("David", 45, ["John ", "Mary"]);
+manager.manageEmployees();
+manager.collectCash(100);
+manager.writePrescription("Bob");
